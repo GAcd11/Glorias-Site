@@ -1,0 +1,142 @@
+body{
+  font: #40514E
+  margin: 0;
+  text-align: center;
+  /*text-align will position everything in the parent container,
+  except those that have a width. In that case you need to use
+  margin; 0 auto, etc */
+  font-family: 'Montserrat', serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1 {
+  margin: 100px auto 100px auto;
+  font-size: 5.625rem;
+  /*ALWAYS USE rem FOR FONT SIZE IN CSS3*/
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', serif;
+  font-weight: 600;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.top-container {
+  background-color: #EAF6F6
+}
+.top-container{
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.intro {
+  width: 30%;
+  margin:auto;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.testbutton {
+  text-decoration: none;
+    font-family: 'Montserrat', serif;
+  color: #FFFFFF !important;
+  font-size: 20px;
+  text-shadow: 1px 1px 0px #11CDD4;
+  box-shadow: 1px 1px 1px #11CDD4;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #11999E;
+  background: linear-gradient(top,  #11CDD4,  #11999E);
+  background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+  background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+}
+.testbutton:hover {
+  color: #FFFFFF !important;
+  background: #11999E;
+  background: linear-gradient(top,  #30C3CB,  #2BC4AD);
+  background: -ms-linear-gradient(top,  #30C3CB,  #2BC4AD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30C3CB), to(#2BC4AD));
+  background: -moz-linear-gradient(top,  #30C3CB,  #2BC4AD);
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.travel-img{
+  width: 25%;
+  float: left; /*FLOATING items in CSS should only be used when wrapping around text.*/
+  margin-right: 30px;
+
+}
+
+.doodle-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
